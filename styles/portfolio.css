@@ -199,3 +199,29 @@ main {
     text-align: center;
     margin-top: 50px;
 }
+/* footer section styles */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+    
+}
+.footer-column{
+    width: 50%;
+}
+.footer-column a {
+    margin-right: 25px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 18px 35px;
+    border: 0;
+    color:#757575;
+    font-size: 16px;
+}
